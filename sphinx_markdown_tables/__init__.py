@@ -33,4 +33,4 @@ def process_tables(app, docname, source):
 
     # re-assemble into markdown-with-tables-replaced
     # must replace element 0 for changes to persist
-    source[0] = '\n\n'.join(blocks)
+    source[0] = '\n'.join(blocks)
